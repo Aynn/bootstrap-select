@@ -3322,7 +3322,7 @@
 
   // SELECTPICKER DATA-API
   // =====================
-  $(window).on('load' + EVENT_KEY + '.data-api', function () {
+  $(function () {
     $('.selectpicker').each(function () {
       var $selectpicker = $(this);
       Plugin.call($selectpicker, $selectpicker.data());
